@@ -1,0 +1,22 @@
+<suite name="automationTest">
+	<parameter name="email" value="Email@test2.como" />
+	<parameter name="password" value="Password" /> 
+	<test name="Login test">
+		<classes>
+			<class name="test.LoginTest" />
+		</classes>
+	</test>
+	
+	<test name="Register test">
+		<parameter name="email" value="newEmail@asdfs.com" />
+		<classes>
+			<class name="test.RegisterTest" />
+		</classes>
+	</test>
+	
+	<test name="Bug test">
+		<classes>
+			<class name="test.BugTest" />
+		</classes>
+	</test>
+</suite>

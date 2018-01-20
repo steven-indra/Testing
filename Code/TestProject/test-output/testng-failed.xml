@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [automationTest]">
+  <parameter name="password" value="Password"/>
+  <parameter name="email" value="Email@test2.como"/>
+  <test name="Bug test(failed)">
+    <classes>
+      <class name="test.BugTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="BUG001"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- test.BugTest -->
+    </classes>
+  </test> <!-- Bug test(failed) -->
+</suite> <!-- Failed suite [automationTest] -->
